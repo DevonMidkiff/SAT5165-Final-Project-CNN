@@ -16,7 +16,7 @@ spark = SparkSession.builder.config(conf=conf).getOrCreate()
 DATASET_PATH = "/home/sat3812/Downloads/archive/imagenet1k"  
 TRAIN_SPLIT, VAL_SPLIT, TEST_SPLIT = 0.8, 0.1, 0.1
 BATCH_SIZE = 64
-EPOCHS = 1
+EPOCHS = 10
 LEARNING_RATE = 0.001
 
 # Data Augmentation
